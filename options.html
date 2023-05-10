@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>OpenAI Extension Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #07c;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: normal;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            border: 1px solid #ccc;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #07c;
+            color: #fff;
+            border: none;
+            padding: 0.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #056;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OpenAI Extension Options</h1>
+        <button id="save">Save</button>
+    </header>
+    <main>
+        <p>Enter your OpenAI API key:</p>
+        <label for="openai_key">API Key:</label>
+        <input type="text" id="openai_key">
+    </main>
+    <script src="options.js"></script>
+</body>
+</html>
