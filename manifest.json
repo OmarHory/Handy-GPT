@@ -2,7 +2,7 @@
     "name": "GPT-3.5 Turbo Extension",
     "version": "0.0.0.2",
     "description": "Have a handy chat with GPT 3.5 Turbo!",
-    "permissions": ["activeTab", "storage"],
+    "permissions": ["storage"],
     "background": {
         "service_worker": "background.js"
     },
