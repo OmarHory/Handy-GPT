@@ -8,7 +8,7 @@ A simple Chrome extension that allows users to interact with GPT-3 AI models.
 
 To install the extension, follow these steps:
 
-1. Download the extension from the Chrome Web Store: https://chrome.google.com/webstore/detail/gpt-35-turbo-extension/eebpjloikjhhpklemoapjdpnaekgiclk/
+1. Add the extension from the Chrome Web Store: https://chrome.google.com/webstore/detail/gpt-35-turbo-extension/eebpjloikjhhpklemoapjdpnaekgiclk/
 2. Go to Options in the Extensions settings and put your OPENAI API Key
 3. Click on the extension icon in your browser toolbar to launch it.
 
