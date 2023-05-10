@@ -1,4 +1,4 @@
-# My Chrome Extension
+# Handy-GPT --> Google Chrome Extension
 
 ![Extension Logo](images/crx.png)
 
